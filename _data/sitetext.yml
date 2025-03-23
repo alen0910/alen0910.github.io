@@ -89,7 +89,7 @@ en: &DEFAULT_EN
     people:
       - name: "Alen Brnas"
         role: "Osnivač"
-        image: assets/img/team/1.jpg
+        image: assets/img/team/500x500.jpg
         social:
 
   contact:
