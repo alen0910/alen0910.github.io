@@ -23,17 +23,17 @@ en: &DEFAULT_EN
     list:
       - title: "Klimatizacija"
         desc: "Prodaja, postavljanje, servis, te predinstalacije za klimatizacijske uređaje."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        icon: fas fa-fan #find more at https://fontawesome.com/icons
       - title: "Elektroinstalacije"
         desc: "Popravljanje starih, te postavljanje novih elektroinstalacija."
-        icon: fas fa-laptop
+        icon: fas fa-bolt
       - title: "Grijanje"
         desc: "Postavljanje električnih podnih grijanja i dizalica topline."
-        icon: fab fa-markdown
+        icon: fas fa-fire
 
   portfolio:
     title: "Ovlaštenja"
-    text: "Brnas Ploče d.o.o. je ovlašteni partner sljedećih firmi: VIVAX, SAMSUNG, HISENSE, PANASONIC, DAIKIN, CLIVET, VHIPOOL, GORENJE, TOSHIBA, LG, MITSUBISHI ELECTRIC."
+    text: "Brnas Ploče d.o.o. je ovlašteni partner sljedećih firmi: <strong>VIVAX</strong>, <strong>SAMSUNG</strong>, <strong>HISENSE</strong>, <strong>PANASONIC</strong>, <strong>DAIKIN</strong>, <strong>CLIVET</strong>, <strong>VHIPOOL</strong>, <strong>GORENJE</strong>, <strong>TOSHIBA</strong>, <strong>LG</strong>, <strong>MITSUBISHI ELECTRIC</strong>."
     section: portfolio
 
   timeline:
@@ -94,7 +94,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Kontaktirajte Nas"
-    text: "Kontaktirajte nas putem e'pošte ili pozivom na: 098-973-0587"
+    text: "<span style='color: white;'><strong>Kontaktirajte nas putem e-pošte ili pozivom na: 098-973-0587</strong></span>"
     section: contact
     name: "Ime*"
     name-validation: "Unesite Vaše ime."
