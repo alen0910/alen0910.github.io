@@ -11,67 +11,66 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Ljeti hladno, zimi vruće uz
+    text: Brnas Ploče d.o.o.
+    button: Usluge
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Usluge"
+    text: ""
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Klimatizacija"
+        desc: "Prodaja, postavljanje, servis, te predinstalacije za klimatizacijske uređaje."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Elektroinstalacije"
+        desc: "Popravljanje starih, te postavljanje novih elektroinstalacija."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "Grijanje"
+        desc: "Postavljanje električnih podnih grijanja i dizalica topline."
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Ovlaštenja"
+    text: "Brnas Ploče d.o.o. je ovlašteni partner sljedećih firmi: VIVAX, SAMSUNG, HISENSE, PANASONIC, DAIKIN, CLIVET, VHIPOOL, GORENJE, TOSHIBA, LG, MITSUBISHI ELECTRIC."
     section: portfolio
-    closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "Vremenska Crta"
+    text: "Naše putovanje"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Naši skromni početci"
+        year: "2011-2013"
+        desc: "Kao mali obiteljski obrt, započeli smo sa radom kod prijatelja i obitelji. Pri tome radu stekli smo kvalitetno iskustvo koje nam je pomoglo u daljnjem razvoju."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Rast i razvoj obrta"
+        year: "2013-2018"
+        desc: "Konstantan i kvalitetan rad rezultirao je povećanjem broja klijenata, te samim time i povećanjem obujma posla. U ovom periodu smo se specijalizirali za klimatizacijske uređaje i elektroinstalacije."
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "Pomoć pri izgradnji Pelješkog mosta"
+        year: "2018-2022"
+        desc: "Naš obrt dobija priliku sudjelovati u izgradnji Pelješkog mosta ugradnjom klimatizacijskih uređaja u svim boravišnim prostorima."
         image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+        alt: Instalacija klime na Pelješkom mostu
+      - title: "Osnivanje Brnas Ploče d.o.o."
+        year: "2024"
+        desc: "Zbog povećanog obujma posla osnovali smo firmu Brnas Ploče d.o.o. koja će se baviti prodajom, postavljanjem i servisiranjem klimatizacijskih uređaja, elektroinstalacija i grijanja."
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Pridružite <br> se našoj <br> priči!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "O nama"
+    text: "Naša priča"
+    body: "Brnas Ploče d.o.o. isprva utemeljen kao mali obiteljski obrt, nakon 10 godina uspješnog iskustva te velikog zadovoljstva klijenata, postaje firma koja će učiniti vaš dom ugodnijim prostorom za život."
     section: about
 
   clients:
@@ -191,8 +190,8 @@ es: &DEFAULT_ES
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Ovlaštenja"
+    text: "Brnas Ploče d.o.o. je ovlašteni partner sljedećih firmi: VIVAX, SAMSUNG, HISENSE, PANASONIC, DAIKIN, CLIVET, VHIPOOL, GORENJE, TOSHIBA, LG, MITSUBISHI ELECTRIC."
     section: portafolio
     closebutton: "Cerrar Proyecto"
 

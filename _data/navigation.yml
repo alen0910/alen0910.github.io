@@ -11,20 +11,18 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
+    - title: "Usluge"
       section: services
-    - title: "Portfolio"
+    - title: "Ovlaštenja"
       section: portfolio
-    - title: "About"
+    - title: "O nama"
       section: about
-    - title: "Timeline"
+    - title: "Vremenska Crta"
       section: timeline
-    - title: "Team"
+    - title: "Tim"
       section: team
-    - title: "Contact"
+    - title: "Kontaktirajte Nas"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
