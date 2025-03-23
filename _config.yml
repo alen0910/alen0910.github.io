@@ -18,7 +18,7 @@ url    : "" # the base hostname & protocol for your site, e.g. http://example.co
 baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
 
 title      : Brnas Ploče d.o.o.
-email      : brnasploce@gmail.com #this is also the email contact forms will go to
+email      : f/xkgjbgne #this is also the email contact forms will go to
 description: "Brnas Ploče d.o.o. - Usluge klimatizacije, grijanja i elektroinstalacija."
 author     : Alen Brnas
 # logo:     #optional, defaults to site title
