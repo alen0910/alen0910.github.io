@@ -28,7 +28,7 @@ author     : Alen Brnas
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: GTM-KWBCBT7Z #Google Analytics tracking code here
+  google: G-V6KQ7EL9GS #Google Analytics tracking code here
 
 collections:
   portfolio:
