@@ -81,8 +81,9 @@ en: &DEFAULT_EN
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: 
-        url: 
+      - title: Pelješki most
+        url: https://povezanahrvatska.eu/projekti/peljeski-most/
+        logo: https://povezanahrvatska.eu/wp-content/uploads/2020/04/nav_logo.png
 
   team:
     title: "Naš Osnivač"
