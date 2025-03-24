@@ -18,7 +18,7 @@ url    : "" # the base hostname & protocol for your site, e.g. http://example.co
 baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
 
 title      : Brnas Ploče d.o.o.
-email      : f/xkgjbgne #this is also the email contact forms will go to
+email      : brnasploce@gmail.com #this is also the email contact forms will go to
 description: "Brnas Ploče d.o.o. - Usluge klimatizacije, grijanja i elektroinstalacija."
 author     : Alen Brnas
 # logo:     #optional, defaults to site title
@@ -28,7 +28,7 @@ author     : Alen Brnas
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: #Google Analytics tracking code here
+  google: GTM-KWBCBT7Z #Google Analytics tracking code here
 
 collections:
   portfolio:
@@ -37,7 +37,7 @@ markdown: kramdown
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-# formspree_form_path: "f/a_form_id"
+formspree_form_path: "f/xkgjbgne"
 
 plugins:
   - jekyll-remote-theme
