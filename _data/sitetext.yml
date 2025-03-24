@@ -33,7 +33,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Ovlaštenja"
-    text: "Brnas Ploče d.o.o. je ovlašteni partner sljedećih firmi: <strong>VIVAX</strong>, <strong>SAMSUNG</strong>, <strong>HISENSE</strong>, <strong>PANASONIC</strong>, <strong>DAIKIN</strong>, <strong>CLIVET</strong>, <strong>VHIPOOL</strong>, <strong>GORENJE</strong>, <strong>TOSHIBA</strong>, <strong>LG</strong>, <strong>MITSUBISHI ELECTRIC</strong>."
+    text: "Brnas Ploče d.o.o. je ovlašteni partner sljedećih firmi: <strong>VIVAX</strong>, <strong>SAMSUNG</strong>, <strong>HISENSE</strong>, <strong>PANASONIC</strong>, <strong>DAIKIN</strong>, <strong>CLIVET</strong>, <strong>WHIRLPOOL</strong>, <strong>GORENJE</strong>, <strong>TOSHIBA</strong>, <strong>LG</strong>, <strong>MITSUBISHI ELECTRIC</strong>."
     section: portfolio
 
   timeline:
@@ -73,7 +73,7 @@ en: &DEFAULT_EN
   about:
     title: "O nama"
     text: "Naša priča"
-    body: "Brnas Ploče d.o.o. isprva utemeljen kao mali obiteljski obrt, nakon 10 godina uspješnog iskustva te velikog zadovoljstva klijenata, postaje firma koja će učiniti vaš dom ugodnijim prostorom za život."
+    body: "Brnas Ploče d.o.o., isprva utemeljen kao mali obiteljski obrt, nakon 10 godina uspješnog iskustva te velikog zadovoljstva klijenata, postaje firma koja će učiniti Vaš dom ugodnijim prostorom za život."
     section: about
 
   clients:
@@ -82,8 +82,17 @@ en: &DEFAULT_EN
     horizontal-scrolling: "" #"yes/no"
     list:
       - title: Pelješki most
-        url: https://povezanahrvatska.eu/projekti/peljeski-most/
-        logo: https://povezanahrvatska.eu/wp-content/uploads/2020/04/nav_logo.png
+        url: https://crbc-croatia.com/
+        logo: assets/img/clients/crbc.jpg
+      - title: Grad Ploče
+        url: https://www.ploce.hr/
+        logo: assets/img/clients/ploce.jpg
+      - title: Lučka uprava Ploče
+        url: https://www.luka-ploce.hr/
+        logo: assets/img/clients/luka-ploce.jpg
+      - title: Srednja Škola Ploče
+        url: https://ss-fraandrijekacicamiosica-ploce.skole.hr/
+        logo: assets/img/clients/ss-ploce.jpg
 
   team:
     title: "Naš Osnivač"
