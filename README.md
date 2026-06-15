@@ -1,15 +1,40 @@
-# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
+# Brnas Ploče d.o.o. — web stranica
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking the 
-[![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate) button, 
-then replace the sample content with your own and configure for your needs.
+Statična web stranica firme **Brnas Ploče d.o.o.** (usluge klimatizacije,
+grijanja i elektroinstalacija, Ploče, Hrvatska).
 
-If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://raviriley.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo. You can also use a `CNAME` file and your own custom domain!
+Izrađena u običnom **HTML-u, CSS-u i vanilla JavaScriptu** — bez build koraka i
+bez vanjskih okvira (frameworka).
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
+## Struktura
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+```
+index.html        # početna stranica (sve sekcije)
+legal.html        # pravila privatnosti
+404.html          # stranica za nepostojeće rute
+css/styles.css    # cjelokupni dizajn
+js/main.js        # navigacija, animacije, kontakt obrazac
+assets/img/       # logo, fotografije, logotipi klijenata
+CNAME             # custom domena (brnasploce.com)
+.nojekyll         # GitHub Pages servira datoteke kao statične
+```
+
+## Lokalni pregled
+
+Otvorite `index.html` u pregledniku, ili pokrenite jednostavan poslužitelj:
+
+```bash
+python3 -m http.server 8000
+# pa otvorite http://localhost:8000
+```
+
+## Kontakt obrazac
+
+Obrazac šalje podatke putem [Formspree](https://formspree.io/)
+(`https://formspree.io/f/xkgjbgne`) AJAX zahtjevom. Polja: ime, e-pošta,
+kontakt broj i poruka.
+
+## Deploy
+
+Stranica se poslužuje preko GitHub Pages-a kao statične datoteke. Datoteka
+`.nojekyll` osigurava da se sadržaj ne procesira kroz Jekyll.
