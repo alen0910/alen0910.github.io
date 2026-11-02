@@ -906,7 +906,7 @@ h1, h2, h3, h4 {
 }
 .footer__top {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
+  grid-template-columns: 1.6fr 1fr 1fr 1.1fr;
   gap: 2.5rem;
   padding-bottom: 2.5rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -925,6 +925,20 @@ h1, h2, h3, h4 {
 .footer ul { list-style: none; padding: 0; display: grid; gap: 0.6rem; }
 .footer ul a { font-size: 0.95rem; transition: color 0.2s var(--ease); }
 .footer ul a:hover { color: #5fc6ee; }
+.footer__bank li { display: grid; gap: 0.15rem; font-size: 0.95rem; }
+.footer__bank-label {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.footer__iban {
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.03em;
+  word-break: break-all;
+  user-select: all;
+}
 .footer__bottom {
   display: flex;
   flex-wrap: wrap;
